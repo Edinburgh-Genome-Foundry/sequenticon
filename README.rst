@@ -16,6 +16,8 @@
 Sequenticon is a Python library to generate `identicons <https://en.wikipedia.org/wiki/Identicon>`_ for DNA sequences. For instance the sequence ``ATGGTGCA`` gets converted to the following icon:
 
 .. raw:: html
+
+    <br />
     <p align="center">
     <img title="sequenticon example" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/ATGGTGCA_sequenticon.png" width="80"/>
     <br /><br />
