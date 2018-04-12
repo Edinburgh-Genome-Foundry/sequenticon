@@ -1,7 +1,7 @@
 .. raw:: html
 
     <p align="center">
-    <img alt="lala Logo" title="sequenticon Logo" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/logo.png" width="747">
+    <img alt="lala Logo" title="sequenticon Logo" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/logo.png" width="550">
     <br /><br />
     </p>
 
@@ -13,12 +13,12 @@
    :target: https://coveralls.io/github/Edinburgh-Genome-Foundry/sequenticon?branch=master
 
 
-Sequenticon is a Python library to generate [identicons](https://en.wikipedia.org/wiki/Identicon.) for DNA sequences. For instance the sequence ``ATGGTGCA`` gets converted to the following icon:
+Sequenticon is a Python library to generate `identicons <https://en.wikipedia.org/wiki/Identicon>`_ for DNA sequences. For instance the sequence ``ATGGTGCA`` gets converted to the following icon:
 
 .. raw:: html
 
     <p align="center">
-    <img alt="lala Logo" title="sequenticon Logo" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/ATGGTGCA_sequenticon.png" width="120">
+    <img alt="lala Logo" title="sequenticon Logo" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/ATGGTGCA_sequenticon.png" width="80">
     <br /><br />
     </p>
 
@@ -65,12 +65,12 @@ To process a batch:
     # Write a PDF report with every sequenticon
     sequenticon_batch_pdf(sequences, "my_report.pdf")
 
-Here is an example PDF output from the last command (`full PDF <https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/example_report.pdf">`_):
+Here is an example PDF output from the last command (`full PDF <https://github.com/Edinburgh-Genome-Foundry/sequenticon/blob/master/docs/example_report.pdf">`_):
 
 .. raw:: html
 
     <p align="center">
-    <img alt="lala Logo" title="sequenticon Logo" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/pdf_screenshot" width="381">
+    <img alt="sequenticon Logo" title="sequenticon Logo" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/pdf_screenshot.png" width="381">
     <br /><br />
     </p>
 
