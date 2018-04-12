@@ -1,6 +1,4 @@
 import os
-import matplotlib
-matplotlib.use("Agg")
 import sequenticon
 
 from sequenticon import (sequenticon, sequenticon_batch, sequenticon_batch_pdf,
