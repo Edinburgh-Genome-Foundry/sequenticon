@@ -44,8 +44,8 @@ Usage
     # Write a sequence to a PNG sequenticon file
     sequenticon("ATGGTGCA", size=120, output_path="icon.png")
 
-    # Get a self-contained "<img/>" HTML, ready to be embedded in a page
-    sequenticon("ATGGTGCA", size=60, output_format="html_image")
+    # Get a self-contained "<img/>" HTML string, to embed in a webpage
+    img_tag = sequenticon("ATGGTGCA", size=60, output_format="html_image")
 
 To process a batch:
 
