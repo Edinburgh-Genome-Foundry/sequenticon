@@ -1,0 +1,18 @@
+#sidebar: p {{sidebar_text}}
+
+.logos
+  img(src="file:///{{ sequenticon_logo_url }}")
+  img(src="file:///{{ egf_logo_url }}")
+
+hr
+h1 {{title}}
+hr
+
+each name, sequenticon in sequenticons
+  .sequenticon
+    .img {{sequenticon}}
+    .name {{name}}
+
+//- p(style="color:grey;")
+//-   :markdown
+//-     Make sequenticons using the [online app](bb) or the [Python library](bb)

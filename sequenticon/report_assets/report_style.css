@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+.sequenticon {
+  display: inline-block;
+  /* min-width: 20%; */
+  margin-right: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.sequenticon .img {
+  display: inline-block;
+  margin-right:8px;
+  vertical-align:middle;
+}
+
+.sequenticon .name {
+  display: inline-block;
+}
