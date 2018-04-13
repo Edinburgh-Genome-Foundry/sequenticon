@@ -16,9 +16,10 @@
 Sequenticon is a Python library to generate `identicons <https://en.wikipedia.org/wiki/Identicon>`_ for DNA sequences. For instance the sequence ``ATGGTGCA`` gets converted to the following icon:
 
 .. raw:: html
+
     <br />
     <p align="center">
-    <img alt="lala Logo" title="sequenticon Logo" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/ATGGTGCA_sequenticon.png" width="80">
+    <img title="sequenticon example" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/ATGGTGCA_sequenticon.png" width="80"/>
     <br /><br />
     </p>
 
@@ -43,8 +44,8 @@ Usage
     # Write a sequence to a PNG sequenticon file
     sequenticon("ATGGTGCA", size=120, output_path="icon.png")
 
-    # Get a self-contained "<img/>" HTML, ready to be embedded in a page
-    sequenticon("ATGGTGCA", size=60, output_format="html_image")
+    # Get a self-contained "<img/>" HTML string, to embed in a webpage
+    img_tag = sequenticon("ATGGTGCA", size=60, output_format="html_image")
 
 To process a batch:
 
