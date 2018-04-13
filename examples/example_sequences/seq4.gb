@@ -1,0 +1,19 @@
+LOCUS       Exported                  11 bp ds-DNA     circular SYN 12-APR-2018
+DEFINITION  synthetic circular DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 11)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Apr 12, 2018 from SnapGene Viewer 4.1.4
+            http://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..11
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+ORIGIN
+        1 atttgcgatg c
+//

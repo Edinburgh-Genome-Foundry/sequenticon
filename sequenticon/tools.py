@@ -20,7 +20,7 @@ def load_records(path):
         records = list(SeqIO.parse(path, fmt))
     for i, record in enumerate(records):
         if str(record.id) in ['None', '', "<unknown id>", '.', ' ']:
-            record.id = path.replace("/", "_").replace("\z", "_")
+            record.id = path.replace("/", "_").replace("\\", "_")
             if len(records) > 1:
                 record.id += "_%04d" % i
     return records
