@@ -56,6 +56,8 @@ def sequenticon(sequence, output_format='png', size=60, output_path=None):
 
 
     """
+    if hasattr(sequence, 'seq'):
+        sequence = str(sequence.seq)
     sequence = sequence.upper()
     generator = pydenticon.Generator(SETTINGS["rows"], SETTINGS["columns"],
                                      foreground=SETTINGS["color_palette"])
