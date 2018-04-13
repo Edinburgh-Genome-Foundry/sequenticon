@@ -8,10 +8,11 @@ hr
 h1 {{title}}
 hr
 
-each name, sequenticon in sequenticons
-  .sequenticon
-    .img {{sequenticon}}
-    .name {{name}}
+.sequenticons
+  each name, sequenticon in sequenticons
+    .sequenticon
+      .img {{sequenticon}}
+      .name {{name}}
 
 //- p(style="color:grey;")
 //-   :markdown

@@ -19,3 +19,7 @@ h1 {
 .sequenticon .name {
   display: inline-block;
 }
+
+.sequenticons {
+  margin-top: 30px;
+}
