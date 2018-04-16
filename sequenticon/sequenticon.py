@@ -131,7 +131,7 @@ ASSETS_PATH = os.path.join(THIS_PATH, "report_assets")
 PUG_TEMPLATE = os.path.join(ASSETS_PATH, "report_template.pug")
 STYLESHEET = os.path.join(ASSETS_PATH, "report_style.css")
 
-def sequenticon_batch_pdf(sequences, target, title="Sequenticons batch"):
+def sequenticon_batch_pdf(sequences, target=None, title="Sequenticons batch"):
     """Generate a PDF report with sequenticons for a batch of sequences.
 
     Parameters
@@ -143,7 +143,7 @@ def sequenticon_batch_pdf(sequences, target, title="Sequenticons batch"):
       more record each.
 
     target
-      path to a PDF file
+      path to a PDF file, file-like object, or None to return raw PDF data.
 
     title
       Title that will appear in the document
@@ -158,4 +158,4 @@ def sequenticon_batch_pdf(sequences, target, title="Sequenticons batch"):
         sequenticons=sequenticons,
         title=title
     )
-    write_report(html, target, extra_stylesheets=(STYLESHEET,))
+    return write_report(html, target, extra_stylesheets=(STYLESHEET,))
