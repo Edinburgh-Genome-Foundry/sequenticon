@@ -14,5 +14,6 @@ setup(
     license='see LICENSE.txt',
     keywords="DNA sequence barcoding sequenticon identicon hash",
     packages=find_packages(exclude='docs'),
+    include_package_data=True,
     install_requires=["Biopython", "pydenticon", "snapgene_reader",
                       "flametree", "pdf_reports"])
