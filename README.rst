@@ -66,7 +66,7 @@ To process a batch:
     # Write a PDF report with every sequenticon
     sequenticon_batch_pdf(sequences, "my_report.pdf")
 
-Here is an example PDF output from the last command (`full PDF <https://github.com/Edinburgh-Genome-Foundry/sequenticon/blob/master/docs/example_report.pdf">`_):
+Here is an example PDF output from the last command (`full PDF <https://github.com/Edinburgh-Genome-Foundry/sequenticon/blob/master/docs/example_report.pdf>`_):
 
 .. raw:: html
 
