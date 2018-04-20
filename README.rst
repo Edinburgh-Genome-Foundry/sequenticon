@@ -105,4 +105,4 @@ More biology software
 
 Sequenticon is part of the `EGF Codons <https://edinburgh-genome-foundry.github.io/>`_ synthetic biology software suite for DNA design, manufacturing and validation.
 
-**Note: also check out Pydenticon.** Sequenticon is really just a few lines of Python around the more generic [pydenticon](https://github.com/azaghal/pydenticon) library. The upside of having an official *sequenticon* library is to make sure that the icons, colors, etc. remain consistent accross projects.
+**Note: also check out Pydenticon.** Sequenticon is really just a few lines of Python around the more generic `pydenticon <https://github.com/azaghal/pydenticon>`_ library. The upside of having an official *sequenticon* library is to make sure that the icons, colors, etc. remain consistent accross projects.
