@@ -26,16 +26,43 @@ Sequenticon is a Python library to generate `identicons <https://en.wikipedia.or
 When are sequenticons useful ?
 -------------------------------
 
-In biological engineering, DNA sequence files often get updated or re-named. This can cause critical confusions when the wrong files or wrong sequence versions get used in a process. Ideally, laboratory information systems would prevent such mistakes, but when they happen they are difficult to trace back to the faulty sequences.
+**Identifying DNA sequences**
 
-Therefore, when using software to process large batches of sequences, one may want a way to quickly decide whether the sequence ``pLac3.gb`` used on March 15th is the same as ``plac3.gb`` which appears in the April 18th batch.
+In biological engineering, DNA sequence files often get updated or re-named.
+This can cause critical confusions when the wrong files or wrong sequence
+versions get used in a process. Ideally, laboratory information systems would
+prevent such mistakes, but when they happen they are difficult to trace back
+to the faulty sequences.
 
-Identicons provide a simple visual way to know that two sequences are different (different identicons) or very probably the same (same identicon).
+Therefore, when using software to process large batches of sequences, one may want
+a way to quickly decide whether the sequence ``pLac3.gb`` used on March 15th is the
+same as ``plac3.gb`` which appears in the April 18th batch.
 
-Also note that, theoretically, even two large sequences differing by one nucleotide only will have very different sequenticon looks.
+Identicons provide a simple visual way to know that two sequences are different
+(different identicons) or very probably the same (same identicon).
 
-Usage
------
+Also note that, theoretically, even two large sequences differing by one
+nucleotide only will have very different sequenticon looks.
+
+**Identifying biological samples**
+
+Sequenticons can also be used to ease the handling of biological samples by
+humans. With the right printer, you can label your tubes with colorful little
+sequenticons which will be much to identify than complex and often very similar
+text labels.
+
+.. raw:: html
+
+    <br />
+    <p align="center">
+    <img title="sequenticon example" src="https://i.imgur.com/QJIJf2M.jpg" width="650"/>
+    <br /><br />
+    </p>
+
+
+
+Library usage
+--------------
 
 .. code:: python
 
