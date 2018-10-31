@@ -48,7 +48,7 @@ nucleotide only will have very different sequenticon looks.
 
 Sequenticons can also be used to ease the handling of biological samples by
 humans. With the right printer, you can label your tubes with colorful little
-sequenticons which will be much to identify than complex and often very similar
+sequenticons which will be much easier to identify than complex and often very similar
 text labels.
 
 .. raw:: html
