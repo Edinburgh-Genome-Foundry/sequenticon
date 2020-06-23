@@ -11,7 +11,7 @@ setup(
     author='Zulko',
     description='Generate human-friendly icons from DNA sequences',
     long_description=open('pypi-readme.rst').read(),
-    license='see LICENSE.txt',
+    license='MIT License',
     keywords="DNA sequence barcoding sequenticon identicon hash",
     packages=find_packages(exclude='docs'),
     include_package_data=True,
