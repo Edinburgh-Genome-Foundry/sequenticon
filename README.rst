@@ -1,7 +1,7 @@
 .. raw:: html
 
     <p align="center">
-    <img alt="lala Logo" title="sequenticon Logo" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/logo.png" width="550">
+    <img alt="Sequenticon Logo" title="Sequenticon" src="https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/sequenticon/master/docs/logo.png" width="550">
     <br /><br />
     </p>
 
@@ -120,9 +120,9 @@ Alternatively, you can unzip the sources in a folder and type
 License = MIT
 --------------
 
-This project is an open-source software originally written at the `Edinburgh Genome Foundry <http://genomefoundry.org>`_ by `Zulko <https://github.com/Zulko>`_ and `released on Github <https://github.com/Edinburgh-Genome-Foundry/sequenticon>`_ under the MIT licence (¢ Edinburg Genome Foundry).
+This project is an open-source software originally written at the `Edinburgh Genome Foundry <http://genomefoundry.org>`_ by `Zulko <https://github.com/Zulko>`_ and `released on Github <https://github.com/Edinburgh-Genome-Foundry/sequenticon>`_ under the MIT license (Copyright 2018 Edinburgh Genome Foundry).
 
-Everyone is welcome to contribute !
+Everyone is welcome to contribute!
 
 More biology software
 ---------------------
