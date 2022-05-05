@@ -5,9 +5,9 @@
     <br /><br />
     </p>
 
-.. image:: https://travis-ci.org/Edinburgh-Genome-Foundry/sequenticon.svg?branch=master
-   :target: https://travis-ci.org/Edinburgh-Genome-Foundry/sequenticon
-   :alt: Travis CI build status
+.. image:: https://github.com/Edinburgh-Genome-Foundry/sequenticon/actions/workflows/build.yml/badge.svg
+    :target: https://github.com/Edinburgh-Genome-Foundry/sequenticon/actions/workflows/build.yml
+    :alt: GitHub CI build status
 
 .. image:: https://coveralls.io/repos/github/Edinburgh-Genome-Foundry/sequenticon/badge.svg?branch=master
    :target: https://coveralls.io/github/Edinburgh-Genome-Foundry/sequenticon?branch=master
@@ -24,7 +24,7 @@ Sequenticon is a Python library to generate `identicons <https://en.wikipedia.or
     </p>
 
 When are sequenticons useful ?
--------------------------------
+------------------------------
 
 **Identifying DNA sequences**
 
@@ -62,7 +62,7 @@ text labels.
 
 
 Library usage
---------------
+-------------
 
 .. code:: python
 
@@ -103,22 +103,22 @@ Here is an example PDF output from the last command (`full PDF <https://github.c
     </p>
 
 Installation
--------------
+------------
 
-You can install Sequenticon through PIP
-
-.. code::
-
-    sudo pip install sequenticon
-
-Alternatively, you can unzip the sources in a folder and type
+You can install Sequenticon through PIP:
 
 .. code::
 
-    sudo python setup.py install
+    pip install sequenticon
+
+Alternatively, you can unzip the sources in a folder and type:
+
+.. code::
+
+    python setup.py install
 
 License = MIT
---------------
+-------------
 
 This project is an open-source software originally written at the `Edinburgh Genome Foundry <http://genomefoundry.org>`_ by `Zulko <https://github.com/Zulko>`_ and `released on Github <https://github.com/Edinburgh-Genome-Foundry/sequenticon>`_ under the MIT license (Copyright 2018 Edinburgh Genome Foundry).
 
