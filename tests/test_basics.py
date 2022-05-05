@@ -1,18 +1,23 @@
 import os
 import sequenticon
 
-from sequenticon import (sequenticon, sequenticon_batch, sequenticon_batch_pdf,
-                         load_records)
+from sequenticon import (
+    sequenticon,
+    sequenticon_batch,
+    sequenticon_batch_pdf,
+    load_records,
+)
 
 
 RECORDS_PATHS = [
-    os.path.join('tests', 'data', r)
-    for r in ["records.fa", "seq4.gb", "seq5.dna"]
+    os.path.join("tests", "data", r) for r in ["records.fa", "seq4.gb", "seq5.dna"]
 ]
+
 
 def test_load_records():
     records = load_records(RECORDS_PATHS)
     assert len(records) == 5
+
 
 def test_sequenticon(tmpdir):
     output_path = os.path.join(str(tmpdir), "icon.png")
@@ -21,6 +26,7 @@ def test_sequenticon(tmpdir):
     base64 = sequenticon("ATGGTGCA", size=60, output_format="base64")
     assert len(base64) == 292
     assert base64.startswith("iVBORw0KGgoAAAA")
+
 
 def test_sequenticon_batch(tmpdir):
 
