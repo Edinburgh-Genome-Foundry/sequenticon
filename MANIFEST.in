@@ -1,5 +1,0 @@
-include *.txt
-recursive-include examples *.txt *.py
-recursive-include sequenticon/report_assets *
-include *.rst
-include ez_setup.py
