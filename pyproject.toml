@@ -1,6 +1,6 @@
 [project]
 name = "sequenticon"
-version = "0.1.7"
+version = "0.1.8"
 license = "MIT"
 authors = [{ name = "Zulko" }]
 description = "Generate human-friendly icons from DNA sequences"
