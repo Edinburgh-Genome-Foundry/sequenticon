@@ -15,7 +15,9 @@ Sequenticon is a Python library to generate `identicons <https://en.wikipedia.or
 Infos
 -----
 
-**PIP installation:** .. code:: bash
+**PIP installation:**
+
+.. code:: bash
 
   pip install sequenticon
 
@@ -24,7 +26,7 @@ Infos
 
 **License:** MIT
 
-Copyright Edinburgh Genome Foundry, University of Edinburgh
+Copyright 2018 Edinburgh Genome Foundry, University of Edinburgh
 
 
 More biology software

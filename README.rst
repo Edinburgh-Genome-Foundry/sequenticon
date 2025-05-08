@@ -78,10 +78,10 @@ To process a batch:
 
 .. code:: python
 
-    from sequenticon import sequenticon_batch
+    from sequenticon import sequenticon_batch, sequenticon_batch_pdf
 
-    sequences = [("seq1", "ATTGTG"), ("seq2", "TAAATGCC"), ...] # OR
-    sequences = ["record1.gb", "record2.fa", ...] # OR
+    sequences = [("seq1", "ATTGTG"), ("seq2", "TAAATGCC"), ...]  # OR
+    sequences = ["record1.gb", "record2.fa", ...]  # OR
     sequences = [biopython_record_1, biopython_record_2, ...]
 
     # Write a batch of sequences as PNG in a folder
